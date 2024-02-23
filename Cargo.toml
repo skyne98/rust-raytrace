@@ -1,0 +1,11 @@
+[package]
+name = "rust-raytrace"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+debug = true
+
+[dependencies]
+notan = "0.12.0"
+rayon = "1.8.1"
